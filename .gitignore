@@ -1,0 +1,26 @@
+
+##ignore tools temporary and input files
+#last zone-h entry saved in database
+/deface.temp
+#list of domains for crawler to scan
+/domains.file
+#downloaded and forwarded captcha image
+/captcha.png
+#Dictionary of .hr domain's corresponding ASNs
+/ASNsDomains.hr
+#Last defacement ID used in signature generation (default 0)
+/id.temp
+#2captcha API key
+/APIKEY
+
+##ignore Vim swap files
+**/*.swp
+
+##ignore Python compiled bytecode files
+**/*.pyc
+
+##ignore all logs
+**/*.log
+
+##ignore compiled shared objects
+**/*.so
